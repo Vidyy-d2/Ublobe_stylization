@@ -49,7 +49,7 @@ setTimeout(() => {
                 user-select: none;
             `;
 
-            fetch("https://raw.githubusercontent.com/Blobby-Boi/uBlobeBM/refs/heads/main/main.html")
+            fetch("https://raw.githubusercontent.com/Vidyy-d2/Ublobe_stylization/refs/heads/main/main.html")
                 .then(response => response.text())
                 .then(html => {
                     const uBlobeHtml = blobFrame.contentDocument || blobFrame.contentWindow.document;
